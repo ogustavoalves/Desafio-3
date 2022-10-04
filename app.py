@@ -9,7 +9,7 @@ def home():
 
 
 @app.route('/index')
-def home():
+def home1():
     return render_template('index.html')
 
 
